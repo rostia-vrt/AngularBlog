@@ -1,7 +1,6 @@
 import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
 import { IBlog, IUser } from 'src/app/shared/interfaces/blog.interface';
 import { Blog, User } from 'src/app/shared/classes/blog.model';
-import { PassThrough } from 'stream';
 
 @Component({
   selector: 'app-blog',
